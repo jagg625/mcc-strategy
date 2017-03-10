@@ -9,13 +9,13 @@ package mitiendita.app;
  *
  * @author jesusarmandoguerragarcia
  */
-public class main {
+public class Principal {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        PuntoDeVenta puntoDeVenta = new PuntoDeVenta();
+        puntoDeVenta.iniciar();
     }
-    
 }
